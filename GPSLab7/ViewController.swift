@@ -40,7 +40,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
     }
     
     @IBAction func btnStart(_ sender: Any) {
-
         locationManager.startUpdatingLocation() // Start updating the location
         mapView.showsUserLocation = true // Show user location on the map
         showLastKnownLocation = false
